@@ -365,6 +365,7 @@ p{
 
     width:fit-content;
 
+    white-space: nowrap;
 }
 
 .bestseller{
@@ -427,6 +428,59 @@ p{
 .card-buttons .order-btn:hover{
 
     background:#B97542;
+
+}
+/*=========================================
+    FEATURED CAKES MOBILE
+=========================================*/
+
+@media (max-width:768px){
+
+    .featured-grid{
+
+        grid-template-columns: 1fr;
+        gap: 30px;
+
+    }
+
+    .featured-card{
+
+        max-width: 420px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .featured-card img{
+
+        height: 260px;
+
+    }
+
+    .cake-badge{
+
+        top: 12px;
+        left: 12px;
+
+        font-size: .75rem;
+
+        padding: 6px 12px;
+
+        white-space: nowrap;
+
+    }
+
+    .card-content{
+
+        padding: 24px;
+
+    }
+
+    .card-content h3{
+
+        font-size: 1.5rem;
+
+    }
 
 }
 /*=========================================
