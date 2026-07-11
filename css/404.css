@@ -1,0 +1,55 @@
+/*=========================================
+    404 PAGE
+=========================================*/
+
+.error-404{
+
+    min-height:70vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:120px 20px;
+}
+
+.error-container{
+
+    max-width:650px;
+
+    text-align:center;
+}
+
+.error-logo{
+
+    width:170px;
+
+    margin-bottom:30px;
+}
+
+.error-container h1{
+
+    font-size:clamp(2rem,5vw,3.2rem);
+
+    color:var(--brown);
+
+    margin-bottom:20px;
+}
+
+.error-container p{
+
+    font-size:1.1rem;
+
+    line-height:1.8;
+
+    color:#666;
+
+    margin-bottom:40px;
+}
+
+.error-container .btn{
+
+    display:inline-block;
+
+    text-decoration:none;
+}
